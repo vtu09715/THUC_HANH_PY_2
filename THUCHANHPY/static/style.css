@@ -1,0 +1,36 @@
+.custom-header {
+    background: linear-gradient(90deg, #4b6cb7, #182848);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card {
+    transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card p {
+    color: #2d3748;
+    font-weight: 500;
+}
+
+.custom-chart-container {
+    background: linear-gradient(135deg, #ffffff, #f7fafc);
+    border-left: 4px solid #ecc94b;
+    padding: 20px;
+}
+
+.custom-chart-container canvas {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
